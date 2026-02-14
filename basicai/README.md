@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+🚀 AI Chatbot Application
+Full-Stack AI Chatbot built using React + Flask + PostgreSQL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📌 Project Overview
+This project is a beginner-friendly full-stack AI Chatbot application that allows users to:
+💬 Chat with an AI assistant
+🧠 Process user input using backend logic
+🗄️ Store chat history in PostgreSQL
+🔄 Connect frontend (React) with backend (Flask API)
 
-## Available Scripts
+The goal of this project is to understand:
+Frontend & Backend integration
+REST API development
+Database connectivity
+Basic AI response handling
 
-In the project directory, you can run:
+🛠️ Tech Stack
+🔹 Frontend
+React JS
+Internal CSS
+Fetch API / Axios
+🔹 Backend
+Flask
+Flask-CORS
+SQLAlchemy
+🔹 Database
+PostgreSQL
 
-### `npm start`
+⚙️ Installation Guide
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2️⃣ Backend Setup (Flask)
+cd backend
+pip install -r requirements.txt
+python app.py
+Server runs on:
+http://localhost:5000
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3️⃣ Frontend Setup (React)
+cd frontend
+npm install
+npm start
+Runs on:
+http://localhost:3000
 
-### `npm test`
+🧠 How It Works
+User types a message in React UI
+React sends POST request to Flask API
+Flask processes the message
+Response is returned to frontend
+Chat history is stored in PostgreSQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✨ Features
+Clean UI
+Real-time chat interface
+Backend API integration
+Database storage
+Beginner-friendly architecture
 
-### `npm run build`
+🚀 Future Improvements
+User authentication
+AI API integration (OpenAI / Groq)
+Chat memory per user
+Deployment on Render / Railway
+Better UI animations
+👨‍💻 Author
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cheeli Karthik
+Aspiring Full Stack & AI Developer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ Support
+If you like this project, give it a ⭐ on GitHub!
